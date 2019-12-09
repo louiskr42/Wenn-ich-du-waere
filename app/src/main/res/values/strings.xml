@@ -1,0 +1,478 @@
+<resources>
+    <string name="app_name">NEW Wenn ich du wäre...</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game">Game</string>
+    <string name="widw">Wenn ich du wäre, würde ich &#160; </string>
+    <string name="enter_name">Bitte Namen der Spieler eingeben</string>
+    <string name="vorbereitungen">Vorbereitungen</string>
+    <string name="zu_wenig_punkte">Tut mir leid, aber du hast zu wenig Punkte!</string>
+    <string name="title_activity_start">Start</string>
+    <string name="title_activity_anleitung_">Anleitung_Activity</string>
+    <string name="leicht">Leicht</string>
+    <string name="mittel">Mittel</string>
+    <string name="schwer">Schwer</string>
+    <string name="addplayers">Spieler Hinzufügen</string>
+    <string name="deleteplayers">Alle Spieler löschen</string>
+    <string name="runde">Runde</string>
+    <string name="start">Start</string>
+    <string name="anleitung">Anleitung</string>
+    <string name="quit">Beenden</string>
+    <string name="easteregg">Herzlichen Glückwunsch! Du hast ein simples aber lustiges Easter Egg gefunden!</string>
+    <string name="wanna_quit">Willst du die App wirklich beenden?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="play_lonly">Willst du wirklich alleine Spielen?</string>
+    <string name="wanna_main">Willst du das laufende Spiel beenden und zurück zum Hauptbildschirm?</string>
+    <string name="lastwinner">Letzter Gewinner:</string>
+    <string name="choosecategory">Ort wählen:</string>
+    <string name="outside">Draußen</string>
+    <string name="party">Party</string>
+    <string name="home">Zuhause</string>
+    <string name="school">Schule</string>
+    <string name="city">Stadt</string>
+    <string name="friend">Bei einem Freund</string>
+    <string name="full_house">Du hast alle Aufgaben in dieser Kategory mit diesem Schwierigkeitsgrad durch. Sie werden nun neu gemixt und neu
+      nochmal durchlaufen.</string>
+    <string name="got_it">Alles klar!</string>
+    <string name="safety_first">Bitte bringt euch nicht in Situationen, die euch Probleme bereiten, oder Gefährlich für euch und/oder dritte Personen sein könnten.
+     Es ist keine Schande zu verlieren. Also hört lieber auf, bevor es zu weit geht. Außerdem verstoßt nicht gegen Gesetze, die dort wo ihr spielt gelten.
+        \nFahrt nicht betrunken Auto etc.!
+        \nWir haften für keine Art von Schäden.</string>
+    <string name="have_fun">Dann viel Spaß und viel Glück! :)</string>
+
+    <string-array name="places">
+        <item>Überall</item>
+        <item>Draußen</item>
+        <item>Party</item>
+        <item>Zuhause</item>
+        <item>Schule</item>
+        <item>Stadt</item>
+        <!-- <item>Bei einem Freund</item> -->
+    </string-array>
+
+    <string name="anleitung_forreal">Ihr gebt die nacheinander die Namen der Mitspieler ein und startet das Spiel. Unter der Aufgabe seht ihr wer dran ist
+    und somit auch, wer die Aufgabe lösen muss. Ihr könnt vorher aber noch wählen, welchen Schwierigkeitsgrad eure Aufgabe haben soll. Dann habt
+     ihr jeweils einen Versuch diese Aufgabe zu lösen. Je nachdem, ob ihr die Aufgabe bestanden oder auch nicht bestanden habt, klickt
+     ihr auf den jeweiligen Knopf. Neu bei dieser Version ist, dass es ein Punkte-System gibt. Wer also seine Aufgabe nicht lösen konnte, hat
+     nicht direkt verloren. (Wenn ihr wollt, könnt ihr trotzdem nach der Regelung spielen) Ebenfalls neu ist der \"Überspringen\" Knopf, der eine neue Aufgabe !!mit dem selben Schwierigkeitsgrad!! auswählt und dem
+     aktuellen Spieler 200 Punkte abzieht. (Sofern du 200 oder mehr Punkte hast) Gewonnen hat der Spieler, der am Ende (ihr könnt euch einigen, wann das Spiel zu Ende sein soll
+     z.B. nach einer gewissen Runden- oder Punktzahl) am meisten Punke hat.
+        \nViel Spaß!\n
+        \nPS: Findest du das Easter Egg im Hauptmenü?</string>
+
+
+    <!--    Aufgaben für Überall    -->
+    <string name="ul1">meine Hose runter lassen und mich einmal im Kreis drehen.</string>
+    <string name="ul2">einen mindestens 3 Meter langen Moonwalk machen und am Ende laut \"Hihi\" schreien.</string>
+    <string name="ul3">meine Schuhe ausziehen und weg werfen.</string>
+    <string name="ul4">einen Refrain aus einem beliebigen Lied laut singen.</string>
+    <string name="ul5">durch die Gegend laufen und so tun, als wäre ich unter Wasser.</string>
+    <string name="ul6">einen 1 Minuten Dialog mit mir selber führen.</string>
+    <string name="ul7">dreimal ganz laut \"Nein\" schreien und so tun, als würde ich gehen.</string>
+    <string name="ul8">zu einer anderen Person hingehen (Mitspieler nur, wenn keine andere Person anwesend ist),
+                   ihr auf den Hintern hauen, \"Hey sexy\" zu ihr sagen und ihr zu zwinkern.</string>
+    <string name="ul9">mich auf etwas stellen, und laut ein bereits geschehenes Ereignis Prophezeien.</string>
+    <string name="ul10">mich vor etwas oder Jemanden stellen, ihn mit meinem Blick fokussieren und laut und langsam \"Kamehamehaa\" schreien.</string>
+    <string name="ul11">Dr. Bibber an einer Person spielen. (Mitspieler nur, wenn keine andere Person anwesend ist)</string>
+    <string name="ul12">mir ein \"Kick me!\"-Schild an den Rücken hängen.</string>
+    <string name="ul13">die nächsten 10 Minuten nur Hüpfen statt gehen.</string>
+    <string name="ul14">mich 30 Sekunden lang über den Boden rollen.</string>
+    <string name="ul15">so tun, als ob ich mit einem Hund Gassi gehe.</string>
+    <string name="ul16">mir 5 Ohrfeigen verpassen lassen.</string>
+    <string name="ul17">einer anderen Person am Arsch riechen und sagen: \"Meiner riecht besser\". (Mitspieler nur, wenn keine andere Person anwesend ist) </string>
+    <string name="ul18">5 Purzelbäume machen.</string>
+    <string name="ul19">den \"Macarena\"-Tanz tanzen und dazu das Lied singen.</string>
+    <string name="ul20">einen 30 Sekunden Monolog über ein bestimmtes Thema halten.</string>
+    <string name="ul21">die nächsten 3 Minuten so tun, als wäre der Boden Lava.</string>
+    <string name="ul22">zum nächsten Mülleimer gehen und etwas raus holen.</string>
+    <string name="ul23">einmal laut schreien.</string>
+    <string name="ul24">3 Backpfeifen verteilen. (Nicht an Mitspieler. Wenn kein anderer anwesend ist an mich selber)</string>
+    <string name="ul25">mich die nächsten 2 Minuten einfach irgendwo hinlegen, wo ich von vielen gesehen werde.</string>
+    <string name="ul26">die nächsten 5 Minuten Barfuß laufen.</string>
+    <string name="ul27">5 Räder schlagen.</string>
+    <string name="ul28">Joker! Glück gehabt, die Punkte kriegst du geschenkt :D</string>
+    <string name="ul29">Joker! Glück gehabt, die Punkte kriegst du geschenkt :D</string>
+    <string name="ul30">meinen linken Fuß küssen.</string>
+    <string name="ul31">einmal laut aufstoßen.</string>
+    <string name="ul32">laute Furzgeräusche machen</string>
+
+
+    <string name="um1">die nächsten 5 Minuten ausnahmslos die Socken über meinen Händen tragen.</string>
+    <string name="um2">einen andere Person am Arm lecken. (Mitspieler nur, wenn keine andere Person anwesend ist)</string>
+    <string name="um3">mir 10cm Haar abschneiden. (Wenn es nicht so lang ist, bis zur Kopfhaut.</string>
+    <string name="um4">in meiner Nase bohren und es an Jemandem abschmieren. (Nicht an einem Mitspieler. Wenn keine andere Person anwesend ist, an mir selber)</string>
+    <string name="um5">aufstehen und laut \”Revolution\” schreien.</string>
+    <string name="um6">so tun, als ob ich Musik hören und richtig abgehen.</string>
+    <string name="um7">die nächsten 3 Minuten auf Händen UND Füßen laufen</string>
+    <string name="um8">einer Person Wasser über den Kopf schütten. (Nicht über einen Mitspieler. Wenn keine andere Person anwesend ist über meinen Kopf)</string>
+    <string name="um9">die nächsten 3 Minuten nur Radschläge machen, anstatt zu gehen.</string>
+    <string name="um10">meine Socken an meine Ohren hängen, mit meinen Armen einen Rüssel bilden und die nächsten 5 Minuten so tun, als wäre ich eine Elefant.</string>
+    <string name="um11">mich 3 Minuten auf einen Mülleimer setzen und wenn, wenn jemand vorbeikommt \”Sorry Bohneneintopf\” sagen.</string>
+    <string name="um12">Joker! Glück gehabt, die Punkte kriegst du geschenkt :D</string>
+    <string name="um13">Joker! Glück gehabt, die Punkte kriegst du geschenkt :D</string>
+    <string name="um14">eine Person am Ohr knabbern. (Keinen Mitspieler)</string>
+    <string name="um15">mir 5cm Haar abschneiden. (Wenn es nicht so lang ist, bis zur Kopfhaut.</string>
+    <string name="um16">eine Melodie auf meiner Nase spielen.</string>
+    <string name="um17">einen Handstand machen und ihn mindestens 15 Sekunden lang halten.</string>
+    <string name="um18">mich von anderen schminken lassen und ein Foto davon machen und würde es bis morgen als Whatsapp-Profilbild nehmen. </string>
+    <string name="um19">eine Welle auf dem Boden machen.</string>
+    <string name="um20">3 einhändige Liegestütze machen.</string>
+    <string name="um21">einen 16 - Zeiler freestylen.</string>
+    <string name="um22">meine Fußsohle ablecken.</string>
+    <string name="um23">mir jetzt kräftig in den Arsch treten lassen.</string>
+    <string name="um24">würde ich eine Runde Schere, Stein, Papier spielen und die Runde gewinnen.</string>
+    <string name="um25">mit einer Hand einen Fuß festhalten und mit dem anderen Fuß durchspringen.</string>
+    <string name="um26">einen Schuh ausziehen und ihn von einem Mitspieler wegwerfen lassen.</string>
+    <string name="um27">mein Handy einen Minute lang den anderen Mitspielern geben und ihnen alles entsperren.</string>
+    <string name="um28">einem Mitspieler mein Handy geben und ihn einer beliebigen einen beliebigen Text schreiben lassen.</string>
+    <string name="um29">die nächsten 5 Minuten nur auf einem Bein hüpfen, statt zu gehen.</string>
+    <string name="um30">einen von meinen Mitspielern verfassten Text aufnehmen und als Sprachmemo in einen Chat ihrer Wahl schicken.</string>
+
+
+
+
+    <string name="us1">meinen Finger ablecken und ihn einer anderen Person ins Ohr stecken. (Wenn nur Mitspieler anwesend sind, in mein eigenes Ohr)</string>
+    <string name="us2">meinen Finger ablecken und in mein Ohr stecken.</string>
+    <string name="us3">die nächsten 5 Minuten Oberkörper frei verbringen. (Frauen dürfen BH anbehalten)</string>
+    <string name="us4">sagen, dass ich auf die Toilette muss, kurz raus gehen, mir Wasser auf die Hose schütten, wieder rein kommen und sagen: \"Ups! Zu spät!\"</string>
+    <string name="us5">mir 15cm Haar abschneiden. (Wenn es nicht so lang ist, bis zur Kopfhaut.</string>
+    <string name="us6">die nächsten 5 Minuten nur in Unterwäsche verbringen.</string>
+    <string name="us7">JOKER!! Du Glückspilz! Gönn dir die 100P ;P</string>
+    <string name="us8">ein peinliches Foto von mir posten. (Nicht Snapchat)</string>
+    <string name="us9">die nächsten 3 Minuten mein Oberteil als Hose tragen und meine Hose oben rum.</string>
+    <string name="us10">eine Person dazu bringen, meine nackte Axel zu lecken.</string>
+    <string name="us11">die nackte Axel von jemandem lecken.</string>
+
+
+
+    <!--    Aufgaben für Draußen    -->
+    <string name="dl1">mich über den Boden rollen.</string>
+    <string name="dl2">3 Radschläge machen.</string>
+    <string name="dl3">Erde in mein Gesicht schmieren.</string>
+
+
+    <string name="dm1">Gras essen.</string>
+    <string name="dm2">Erde essen.</string>
+    <string name="dm3">Auf einen Baum klettern.</string>
+    <string name="dm4">mit meinen Händen ein mindestens 20 Zentimeter tiefes Loch graben.</string>
+    <string name="dm5">einen Kopfstand machen.</string>
+    <string name="dm6">einen Handstand machen.</string>
+
+    <string name="ds1">Erde schniefen.</string>
+    <string name="ds2">Erde in meine Socken füllen.</string>
+    <string name="ds3">meinen Schuh vergraben.</string>
+
+    <!--    Aufgaben für Party   -->
+    <string name="pl1">eine Person von Hinten antanzen. (Keinen Mitspieler)</string>
+    <string name="pl2">mein Getränk auf ex trinken.</string>
+    <string name="pl3">einen Shot auf ex trinken.</string>
+    <string name="pl4">jemanden sexy antanzen. (Keinen Mitspieler)</string>
+    <string name="pl5">mir eine Nummer klären, die ich noch nicht habe. (von Mitspielern zählt nicht)</string>
+    <string name="pl6">einer Person an den Hintern greifen. (Mitspieler zählen nicht)</string>
+    <string name="pl7">1 Minute lang ununterbrochen mitten auf die Tanzfläche legen.</string>
+    <string name="pl8">dem Spieler links von dir ein Getränk seiner Wahl ausgeben.</string>
+    <string name="pl9">mit einer Person \”Ich habe noch nie…\” spielen.</string>
+    <string name="pl10">mich auf die Tanzfläche stellen und laut \”Darmausfall\” schreien.</string>
+    <string name="pl11">eine Person dazu zu bringen, ihr Getränk über mich zu verschütten.  (Keine Mitspieler)</string>
+    <string name="pl12">eine Flasche mit Kronkorkenverschluss ohne Flaschenöffner öffnen.</string>
+    <string name="pl13">mich neben eine Person stellen und wie eine Katze schnurren. (Mitspieler zählen nicht)</string>
+    <string name="pl14">mich neben eine Person stellen und wie ein Hund knurren. (Mitspieler zählen nicht)</string>
+    <string name="pl15">einem Mädchen einen Chip (oder ähnliches) in den Ausschnitt werfen.</string>
+    <string name="pl16">zu einer Person gehen, eine Tigerkralle mit meiner Hand simulieren und dabei \”Arrrrrr\” sagen.</string>
+    <string name="pl17">3 Personen mit zu ihnen passenden Spitznamen ansprechen. ( Mitspieler zählen nicht)</string>
+    <string name="pl18">Dem Barkeeper eine traurige Geschichte aus meiner Kindheit erzählen.</string>
+    <string name="pl19">mich einer Person des anderen Geschlechts mit \”James Bond\” vorstellen.</string>
+    <string name="pl20">eine Person mit \”Hügelland vorraus!\” an baggern. (Mitspieler zählen nicht)</string>
+    <string name="pl21">eine Person von hinten umarmen. (Keinen Mitspieler)</string>
+    <string name="pl22">eine Person überraschend auf die Wange küssen. (Keinen Mitspieler)</string>
+    <string name="pl23">eine Person auf den Mund küssen. (Keinen Mitspieler)</string>
+    <string name="pl24">mich zu einer Gruppe dazustellen und mindestens 1 Minute stumm da stehen.</string>
+    <string name="pl25">meinen Schuh öffnen und eine Person dazu bringen ihn zu zu machen. (Keinen Mitspieler)</string>
+    <string name="pl26">mich auf die Tanzfläche hocken und Taubengeräusche machen.</string>
+    <string name="pl27">jemanden dazu bringen mit mir Bier-Pong zu spielen.</string>
+    <string name="pl28">mich auf die Tanzfläche stellen und übertrieben auffällig Luftgitarre spielen.</string>
+    <string name="pl29">mich auf den Schoß einer Person setzten. (Mitspieler zählen nicht)</string>
+    <string name="pl30">einer Person einen Lap-Dance geben. (Keinem Mitspieler)</string>
+    <string name="pl31">mich neben eine Person stellen und wie ein Hund hecheln.</string>
+
+
+    <string name="pm1">5 Minuten Oberkörper frei tanzen. (Frauen dürfen BH anbehalten)</string>
+    <string name="pm2">mit einer gleichgeschlechtlichen Person tanzen und ihr tief in die Augen gucken. (Nicht mit einem Mitspieler)</string>
+    <string name="pm3">hinter die Bar gehen und mindestens 1 Getränk verkaufen. (an Mitspieler zählt nicht)</string>
+    <string name="pm4">3 Shots direkt hintereinander auf ex trinken.</string>
+    <string name="pm5">Jemanden Oberkörper frei antanzen. (Keinen Mitspieler, Frauen dürfen BH anbehalten)</string>
+    <string name="pm6">auf die Toilette des anderen Geschlechts gehen und die nächste Person, die herein kommt mit \”Ich habe schon auf dich gewartet\” ansprechen. (Mitspieler zählen nicht)</string>
+    <string name="pm7">mitten auf der Tanzfläche Breakdance tanzen.</string>
+    <string name="pm8">jemanden ohne Vorwarnung von hinten massieren. (Keinen Mitspieler)</string>
+    <string name="pm9">eine Person dazu bringen, mir den Bauch zu kraulen. (Keinen Mitspieler)</string>
+    <string name="pm10">ein Bier auf ex trinken.</string>
+    <string name="pm11">eine mindestens 50 Zentimeter große Pyramide aus Bechern oder Gläsern bauen.</string>
+    <string name="pm12">ich mich mindestens 1 Minute mitten auf die Tanzfläche setzten und meditieren.</string>
+    <string name="pm13">mindestens 3 Personen durch den Beinen durch krabbeln. (Keinem Mitspieler)</string>
+    <string name="pm14">Gangnam Style über die Tanzfläche tanzen.</string>
+    <string name="pm15">Mindestens 3 Personen dazu bringen mit mir den Macarena-Tanz zu tanzen.</string>
+    <string name="pm16">Gangnam Style über die Tanzfläche tanzen.</string>
+    <string name="pm17">eine Photobomb machen.</string>
+    <string name="pm18">Das Licht ein- und ausschalten.</string>
+    <string name="pm19">mich neben ein tanzendes Mädchen stellen und singen: \”Schüttel dein Speck ah! Schüttel dein Speck ah!\”</string>
+    <string name="pm20">eine Person des anderen Geschlechts mit einem billigen Anmachspruch an baggern.</string>
+    <string name="pm21">mir 2 Nummern klären, die ich noch nicht habe.</string>
+    <string name="pm22">mit mindestens 2 Personen \”Ich habe noch nie…\” spielen.</string>
+    <string name="pm23">versuchen eine Person mit einer traurigen Geschichte aus meiner Kindheit an zu baggern.</string>
+    <string name="pm24">zwei Personen dazu zu bringen ihre Getränke über mich zu verschütten. (Nicht von Mitspielern)</string>
+    <string name="pm25">eine Durchsage oder Verkündigung machen.</string>
+    <string name="pm26">einen 30 Sekunden Kopfstand auf der Tanzfläche machen.</string>
+    <string name="pm27">mindestens 30 Sekunden peinlich auf der Tanzfläche tanzen.</string>
+    <string name="pm28">einer Person ein Stück Papier, wo \”Viel Geld\” drauf steht, in die Hand drücken und dann sagen: \”Kauf dir was schönes\”.</string>
+    <string name="pm29">eine Person am Ellenbogen lecken. (Mitspieler zählen nicht)</string>
+    <string name="pm30">eine Flasche mit Kronkorkenverschluss mit einem Feuerzeug öffnen.</string>
+
+
+
+
+    <string name="ps1">ein Kinderlied an machen/ an machen lassen.</string>
+    <string name="ps2">einem Mädchen den BH öffnen. (Keinem Mitspieler)</string>
+    <string name="ps3">5 Shots direkt hintereinander auf ex trinken.</string>
+    <string name="ps4">3 Leute dazu bringen ihr Getränk über mich zu verschütten. (Mitspieler zählen nicht)</string>
+    <string name="ps5">meine Hose runter ziehen und versuchen jemanden zu überzeugen, dass das eine \”Hose Unten\”-Party ist. (Keinen Mitspieler)</string>
+    <string name="ps6">mein Getränk über eine andere Person verschütten. (Nicht über einen Mitspieler)</string>
+    <string name="ps7">ein Selfie mit 5 anderen gleichzeitig machen. (Mitspieler zählen nicht)</string>
+    <string name="ps8">meinen Hintern über die Tanzfläche reiben.</string>
+    <string name="ps9">mit Besteck an mein Glas schlagen und eine Rede halten.</string>
+    <string name="ps10">mit mindestens 5 Personen \”Ich habe noch nie…\” spielen.</string>
+    <string name="ps11">mich auf die Tanzfläche stellen und laut einen Song mitsingen.</string>
+    <string name="ps12">mit einer gleichgeschlechtlichen Person Walzer tanzen. (Mitspieler zählen nicht)</string>
+    <string name="ps13">mir von einer Person einen Lap-Dance geben lassen. (Kein Mitspieler)</string>
+    <string name="ps14">einer gleichgeschlechtlichen Person einen Lap-Dance geben.</string>
+    <string name="ps15">mir von einer gleichgeschlechtlichen Person einen Lap-Dance geben lassen.</string>
+    <string name="ps16">am DJ-Pult rumspielen.</string>
+    <string name="ps17">im Handstand über die Tanzfläche laufen.</string>
+    <string name="ps18">mit einer Person einen imaginären Sternenhimmel bewundern. (Keinem Mitspieler)</string>
+    <string name="ps19">eine Person dazu bringen, etwas aus meinem Bauchnabel zu trinken.</string>
+    <string name="ps20">mich neben eine Person stellen und sie gruselig anstarren. (Keinen Mitspieler)</string>
+
+    <!--    Aufgaben für Zuhause    -->
+    <string name="zl1">einmal ums Haus rennen.</string>
+    <string name="zl2">jemand Fremdes aus dem Telefonbuch anrufen.</string>
+    <string name="zl3">im Kühlschrank nachsehen, ob noch Zigaretten da sind.</string>
+    <string name="zl4">mir die Fingernägel lackieren ( bei männlichem Mitspieler).</string>
+    <string name="zl5">nachsehen, ob jemand draußen vor der Tür steht und einmal laut “Hallo” rufen.</string>
+
+
+    <string name="zm1">mir Klebeband auf den Arm oder auf das Bein kleben und mir so Haare ausreißen.</string>
+    <string name="zm2">eine mindestens 50 Zentimeter große Pyramide aus Bechern oder Gläsern bauen.</string>
+    <string name="zm3">5 mal ums Haus rennen.</string>
+    <string name="zm4">eine 5 minütige Geschichte, über einen Hund und einen Regenwurm erzählen.</string>
+
+
+    <string name="zs1">würde ich eine Flasche Maggi auf ex trinken</string>
+    <string name="zs2">würde ich 2 rohe Eier trinken/essen</string>
+
+
+
+
+   <!--    Aufgaben für Schule    -->
+    <string name="sl1">mich auf einen Stuhl stellen.</string>
+    <string name="sl2">einen Papierflieger durch den Raum werfen.</string>
+    <string name="sl3">den Lehrer das nächsten mal unterbrechen, wenn er anfangen will zu reden.</string>
+    <string name="sl4">3 mal um meinen Stuhl laufen.</string>
+    <string name="sl5">3 mal um meinen Tisch laufen.</string>
+    <string name="sl6">laut anfangen Etwas zu essen.</string>
+    <string name="sl7">etwas von meinem Platz in den Müll werfen.</string>
+    <string name="sl8">drei mal laut Bellen.</string>
+    <string name="sl9">den Mülleimer umwerfen.</string>
+    <string name="sl10">laut so tun, als ob ich ein Autorennen fahre.</string>
+    <string name="sl11">übertrieben laut niesen.</string>
+    <string name="sl12">übertrieben laut ausschnupfen.</string>
+    <string name="sl13">Joker: Du hast Glück :D du kriegst die 25P geschenkt. Gönn\’ sie dir Tiger ;P</string>
+    <string name="sl14">mit einem Mitschüler flirten. (Nicht mit einem Mitspieler)</string>
+    <string name="sl15">einem Mitschüler etwas negatives über sein Outfit sagen.</string>
+    <string name="sl16">mich melden und in das, was ich sage das Wort \”Furz\” einbringen.</string>
+    <string name="sl17">mich melden und in das, was ich sage das Wort \”Unterkörperkontakt\” einbringen.</string>
+    <string name="sl18">mich melden und in das, was ich sage das Wort \”Digga\” einbringen.</string>
+    <string name="sl19">mich melden und in das, was ich sage das Wort \”krassomatisch\” einbringen.</string>
+    <string name="sl20">so tun, als würde ich mit meinem Stift telefonieren.</string>
+    <string name="sl21">den Lehrer fragen, wo Norden ist.</string>
+    <string name="sl22">etwas Essen (oder so tun) und dabei laut schmatzen.</string>
+    <string name="sl23"> wenn der Lehrer den Raum verlassen will \”Lauf Forest! Lauf!” schreien.</string>
+    <string name="sl24">den Lehrer fragen, wie eigentlich dieser aktuelle junge, attraktive Papst heißt.</string>
+    <string name="sl25">den Lehrer fragen, ob er mir einen Stift leihen kann.</string>
+    <string name="sl26">einen meiner Stifte durchbrechen.</string>
+    <string name="sl27">mich ganz hinten an die Wand stellen, mich zurück setzen und sagen: \”Ich wollte gucken, ob man von dort besser sehen kann\”.</string>
+    <string name="sl28">zu einem Mitschüler gehe und ihn von Nahem so lange anstarren, bis er meinen Namen sagt. (Nicht zu einem Mitspieler)</string>
+    <string name="sl29">laut böse lachen.</string>
+    <string name="sl30">laut krähen.</string>
+    <string name="sl31">durch die Klasse krabbeln.</string>
+    <string name="sl32">jemandem am Ohr knabbern. (Mitspieler nur, wenn kein anderer da ist.</string>
+    <string name="sl33">einen Stift anspitzen und den Dreck auf dem Tisch eins Mitschülers entleeren. (Nicht auf dem eines Mitspielers)</string>
+    <string name="sl34">ein mindestens 9 Quadratzentimeter großes Papierstück essen. </string>
+    <string name="sl35">Kreide auf dem Tisch eines Mitschülers zerbröseln. (Nicht auf dem eines Mitspielers)</string>
+    <string name="sl36">einmal laut auf den Tisch schlagen</string>
+    <string name="sl37">die Federtasche vom Nachbarn runterwerfen</string>
+
+
+
+    <string name="sm1">an die Tafel gehen und einen Penis anmalen.</string>
+    <string name="sm2">mir Kreide in beide Nasenlöcher stecken.</string>
+    <string name="sm3">ganz viele Stifte runterfallen lassen und beim Bücken, um sie aufzuheben, jedes mal laut ächzen.</string>
+    <string name="sm4">meinen Schuh in den Mülleimer werfen.</string>
+    <string name="sm5">den Lehrer die nächsten 3 mal unterbrechen, wenn er anfangen will zu reden.</string>
+    <string name="sm6">laut schreien: \"Achtung sie kommen!\" und unter den Tisch kriechen.</string>
+    <string name="sm7">5 Liegestützen auf meinem Tisch machen.</string>
+    <string name="sm8">zum Lichtschalter gehen, ihn 10 mal ein- und ausschalten und dann sagen: \"Keine Angst. routinemäßiger Lichtschaltercheck\".</string>
+    <string name="sm9">einen Papierknödel aus dem Fenster werfen und schreien: \"Flieg Hummel!\"</string>
+    <string name="sm10">aufstehen, laut deine Nationalhymne singen und nach einem Satz dich wieder hinsetzen, während du sagst: \"Text vergessen\".</string>
+    <string name="sm11">den Lehrer bei dem nächsten was er sagt, laut auslachen.</string>
+    <string name="sm12">mich auf meinen Stuhl stellen und Furzgeräusche machen.</string>
+    <string name="sm13">mir den Mülleimer auf den Kopf setzen.</string>
+    <string name="sm14">mich auf meinen Tisch legen und so tun, als ob ich schwimme.</string>
+    <string name="sm15">laut \”Yes! Neuer Highscore!\” schreien und dabei unter den Tisch gucken.</string>
+    <string name="sm16">mich melden und in das, was ich sage das Wort \”Supercalifragilisticexpialigetisch\” einbringen.</string>
+    <string name="sm17">mich melden und in das, was ich sage das Wort \”Superfurz\” einbringen.</string>
+    <string name="sm18">mich melden und in das, was ich sage singen.</string>
+    <string name="sm19">mich melden und eine traurige Geschichte aus meiner Kindheit erzählen.</string>
+    <string name="sm20">vom Stuhl fallen und nach Hilfe schreien.</string>
+    <string name="sm21">hartnäckig versuchen meinen Lehrer davon zu überzeugen, dass es geklingelt hat.</string>
+    <string name="sm22">mich auf meinen Tisch setzen, so tun als ob ich nachdenke und so bleiben, bis ich dreimal angesprochen wurde. (Nicht von einem Mitspieler)</string>
+    <string name="sm23">das nächste mal, wenn der Lehrer etwas sagt \”gelogen\” rufen.</string>
+    <string name="sm24">die nächsten drei mal, wenn der Lehrer anfängt zu sprechen \”Jetzt kommt es\” rufen.</string>
+    <string name="sm25">einen Penis in das Heft des anderen malen. (Nicht in das eines Mitspielers)</string>
+    <string name="sm26">mit jemandem den Platz tauschen. (Nicht mit einem Mitspieler)</string>
+    <string name="sm27">den Lehrer fragen, ob er mir Essen für mich hat.</string>
+    <string name="sm28">den Stift eines anderen durchbrechen. (Keines Mitspielers. Wenn kein anderer anwesend ist, meinen eigenen.)</string>
+    <string name="sm29">den Lehrer fragen, ob er mich am Bauch kraulen kann.</string>
+    <string name="sm30">so tun, als ob ich Musik hören und richtig abgehen.</string>
+    <string name="sm31">einen Lehrer bestechen für eine bessere Note</string>
+
+
+
+
+
+
+
+    <string name="ss1">meinen Tisch mit einem Schrei um schmeißen.</string>
+    <string name="ss2">meine Hose ausziehen.</string>
+    <string name="ss3">den Lehrer die nächsten 5 mal unterbrechen, wenn er anfangen will zu reden.</string>
+    <string name="ss4">den Lehrer mit irgendetwas abwerfen. (Und auch treffen)</string>
+    <string name="ss5">einen Kopfstand machen.</string>
+    <string name="ss6">ein Getränk auf meinem Tisch verschütten.</string>
+    <string name="ss7">ohne etwas zu sagen raus gehen.</string>
+    <string name="ss8">in meiner Nase bohren und es am Lehrer abschmieren.</string>
+    <string name="ss9">mich an die Tafel stellen und so tun, als würde ich jetzt Unterricht machen.</string>
+    <string name="ss10">mit dem Lehrer flirten.</string>
+    <string name="ss11">jemanden den Mülleimer über den Kopf ziehen. (Keinem Mitspieler. Wenn keine andere Person anwesend ist, über meinen eigenen Kopf)</string>
+    <string name="ss12">dem Lehrer etwas negatives über sein Outfit sagen.</string>
+    <string name="ss13">mich melden und in das, was ich sage das Wort \”Genitalherpes\” einbringen.</string>
+    <string name="ss14">durch die Klasse laufen und so tun, als wäre ich in Super Mario. (Und die Soundeffekte mit meinem Mund machen)</string>
+    <string name="ss15">mein Buch in den Müll schmeißen-</string>
+    <string name="ss16">eine Einkaufsliste an die Tafel schreiben.</string>
+    <string name="ss17">mich in den Mülleimer setzen und sagen: \”Ich muss mal groß\”.</string>
+    <string name="ss18">meine Federtasche aus dem Fenster werfen, sagen: \”Ups ich bin wohl ausgerutscht!\” und fragen, ob ich sie jetzt holen darf.</string>
+    <string name="ss19">mich auf den Stuhl des Lehrers setzen und warten bis er mich darauf anspricht.</string>
+    <string name="ss20">aus der Klasse moonwalken.</string>
+
+
+
+    <!--    Aufgaben für City(Stadt)    -->
+    <string name="cl1">mit einem Fremden ein Wettrennen machen.</string>
+    <string name="cl2">bei Burgerking ernsthaft fragen, ob ich den Burger King einmal persönlich sprechen darf.</string>
+    <string name="cl3">einem Mädchen an den Hintern fassen.</string>
+    <string name="cl4">mich 3 Minuten lang auf einen öffentlichen Platz stellen, und so tun als ob ich Schneeflocken mit meiner Zunge fangen würde.</string>
+    <string name="cl5">wie ein Huhn über einen öffentlichen Platz laufen.</string>
+    <string name="cl6">laut wie ein Werwolf heulen und seltsam durch die Gegend laufen.</string>
+    <string name="cl7">mich 3 Minuten mit geschlossenen Augen auf einen öffentlichen Platz setzen und meditieren.</string>
+    <string name="cl8">zu einem Mädchen gehen und ihr versuchen einzureden, dass man sich von früher kennt.</string>
+    <string name="cl9"> 3 Leute anrempeln und sie dann beschimpfen, dass sie aufpassen sollen.</string>
+    <string name="cl10">die älteste Frau, die du siehst nach ihrer Nummer fragen. (Keine Mitspielerin)</string>
+    <string name="cl11">einer Oma sagen, dass sie sehr attraktiv ist und, dass sie alles mit mir machen kann was sie will.</string>
+    <string name="cl12">das nächste Mädchen mit einem billigen Anmachspruch an baggern.</string>
+    <string name="cl13">2 Minuten am Stück auf einer Rolltreppe in die falsche Richtung gehen.</string>
+    <string name="cl14">2 Minuten am Stück vor die Rolltreppe stellen.</string>
+    <string name="cl15">jemanden fragen, wo man das Mittel gegen das Riesenpenissyndrom kaufen kann. (Kein Mitspieler)</string>
+    <string name="cl16">neben einem Passanten richtig über ihn ablästern.</string>
+    <string name="cl17">jemanden fragen, ob es jetzt auf die Größe oder die Technik ankommt.</string>
+    <string name="cl18">5 Passanten mit zu ihnen passenden Spitznamen ansprechen.</string>
+    <string name="cl19">einem Passanten eine traurige Geschichte aus meiner Kindheit erzählen.</string>
+    <string name="cl20">mich zu einer Gruppe dazu stellen und mindestens 3 \”deine Mudda\” - Witze erzählen.</string>
+    <string name="cl21">mindestens 5 Leute umarmen. (Mitspieler zählen nicht)</string>
+    <string name="cl22">in einem Fast-Food Geschäft, fragen wie viele Hühner im Jahr für das Essen hier sterben.</string>
+    <string name="cl23">beim nächsten Cafè oder Restaurant mein Gesicht an die Scheibe pressen und die Leute darin lächelnd und mit großen Augen beobachten</string>
+    <string name="cl24">mir etwas, für unter einen Euro kaufen und an der Kasse um dem Preis feilschen.</string>
+    <string name="cl25">mich neben einen Passanten stellen und ihn fragen: \”Ich habe das Geld, haben sie die Ware?\”</string>
+    <string name="cl26">bei einem Fastfood-Geschäft (außer MC Donalds) fragen, ob sie einen BigMac und Chickenmacnuggets haben.</string>
+    <string name="cl27">im Supermarkt so tun, als ob ich dort arbeite und mindestens 3 Kunden ungefragt beraten.</string>
+    <string name="cl28">über einen öffentlichen Platz laufen und \”The end is near!\” schreien.</string>
+    <string name="cl29">mich vor einen Supermarkt stellen, einen auf Türsteher machen und mindestens 5 Personen anhalten.</string>
+    <string name="cl30">einen Passanten fragen, wo man hier XS-Kondome kaufen kann.</string>
+    <string name="cl31">auf einem öffentlichen Platz laut \”Mama wo bist du?\” schreien.</string>
+    <string name="cl32">einer Person Müll in die Hand drücken und sagen: \”Gönn\’ dir was schönes.\”</string>
+
+
+
+
+
+
+    <string name="cm1">so lange niesen, bis mir jemand Gesundheit sagt. (Kein Mitspieler)l</string>
+    <string name="cm2">Wasser aus einem Brunnen, Fluss, See oder einer Regenpfütze trinken.</string>
+    <string name="cm3">bei einem Restaurant oder Kiosk eine lange Bestellung aufgeben und dann mitten drin einfach weg gehen.</string>
+    <string name="cm4">in ein Restaurant laufen, \”Fleisch essen ist Mord!\” rufen und mich dann an der Schlange anstellen.</string>
+    <string name="cm5">in ein Geschäft und bis zur Kasse moonwalken und am Ende laut \”Hihi\” schreien.</string>
+    <string name="cm6">in eine Drogerie gehen, mit Kondomen an die Kasse gehen und den Kassierer fragen, ob eine Rolle Frischhaltefolie und Gummibänder billiger sind.</string>
+    <string name="cm7">die nächsten 5 Minuten nur Springen statt gehen.</string>
+    <string name="cm8">mindestens 1 Minute auf einem öffentlichen Platz Breakdance machen.</string>
+    <string name="cm9">5 Leute einfach nur anschreien. (Keine Mitspieler)</string>
+    <string name="cm10">mich die nächsten 5 Minuten hinter eine Person stellen und ihr auf Schritt und Tritt folgen. (Keinem Mitspieler)</string>
+    <string name="cm11">jemanden mit meinem Finger in den Hinter stechen. (Keinem Mitspieler)</string>
+    <string name="cm12">jemanden begeistert dazu bringen mir ein Autogramm auf meinen Bauch zu geben. (Keinen Mitspieler)</string>
+    <string name="cm13">auf den Rücken eines Passanten springen und \”Jeehaaw\” schreien.</string>
+    <string name="cm14">mich bei einer Gruppe vorstellen und dann mindestens 3 Minuten einfach stumm danebenstehen.</string>
+    <string name="cm15">3 Leuten ein Autogramm auf ein Körperteil geben. (Mitspieler zählen nicht)</string>
+    <string name="cm16">meinen Kopf auf den Schultern von mindestens 3 Passanten ablegen.</string>
+    <string name="cm17">3 Passanten versuchen in der Nase zu bohren.</string>
+    <string name="cm18">2 Minuten lang an einer Straßenlaterne strippen.</string>
+    <string name="cm19">3 Personen einen Lap-Dance geben. (Keinem Mitspieler)</string>
+    <string name="cm20">in einem Klamottengeschäft in der Abteilung des anderen Geschlechts fragen, ob sie das auch in der Größe meines Geschlechtes haben.</string>
+    <string name="cm21">zu einem Passanten hingehen, dabei laut \”Nananana\” singen und bei dem Passanten dann \”BATMAN\” schreien.</string>
+    <string name="cm22">im Supermarkt in der Gegenwart von Fremden peinlich hinfallen und dabei Artikel mit runter ziehen.</string>
+    <string name="cm23">mich neben einen Passanten stellen und Furzgeräusche machen und laut: \”Haha er hat gefurzt!\” schreien.</string>
+    <string name="cm24">versuchen etwas mit einem Stück papier, wo ich \”Viel Geld\” drauf geschrieben hab, zu kaufen.</string>
+    <string name="cm25">mich auf eine Erhöhung stellen und eine Moralpredigt über Umweltschutz und Klimawandel halten.</string>
+    <string name="cm26">mich hinter einen Passanten stellen und ihm übertrieben laut am Hintern riechen.</string>
+    <string name="cm27">im Supermarkt an der Kasse nach einem kostenlosen Kondom für einen Notfall fragen.</string>
+    <string name="cm28">einen Passanten dazu bringen, mit mir den \”Makarena\”-Tanz zu machen.</string>
+    <string name="cm29">einen Passanten dazu bringen, mit mir mindestens 3 Yoga-Figuren mit mir zu machen.</string>
+    <string name="cm30">einen Fahrradfahrer anhalten und ihn bitten, zu schieben.</string>
+    <string name="cm31">im Supermarkt einen Mitarbeiter fragen, warum die Milch flüssig ist, weil sie normalerweise doch eher fest/cremig ist.</string>
+    <string name="cm32">zu einer dickeren Frau gehen und fragen: \”Kannst du durch das schnelle Bewegen deiner Körpermasse durch Raum und Zeit reisen?\”</string>
+
+
+    <string name="cs1">mir Ahoi Brause kaufen und direkt vor der Kasse etwas davon schniefen und laut \”AAAWWW YEAAH!\” schreien.</string>
+    <string name="cs2">in einen Brunnen, Fluss oder See springen.</string>
+    <string name="cs3">so tun, als ob ich ein Straßenkünstler wäre und mindestens 5€ verdienen. (Geld von Mitspielern zählt nicht)</string>
+    <string name="cs4">einer Schaufenster Puppe etwas anderes anziehen.</string>
+    <string name="cs5">in einem Klamottengeschäft 20 Klamotten von dort anziehen. (paare, wie Socken zählen als eine Klamotte)</string>
+    <string name="cs6">im Supermarkt eine Durchsage machen.</string>
+    <string name="cs7">im Supermarkt eine mindestens 50 Zentimeter große Pyramide aus Artikeln bauen.</string>
+    <string name="cs8">im Supermarkt in ein Regal setzen oder legen.</string>
+    <string name="cs9">auf eine Bushaltestelle klettern. (wenn kein Haus da ist auf das Schild)</string>
+    <string name="cs10">so tun, als wäre ich blind und einer Frau erst an die Brüste und dann an den Hintern fassen. (Keiner Mitspielerin)</string>
+    <string name="cs11">die nächsten 5 Minuten ein Kondom über den Kopf tragen.</string>
+    <string name="cs12">mich im Supermarkt an der Kasse lautstark über die Preise von Kaugummis aufregen und wütend aus dem Laden stürmen.</string>
+    <string name="cs13">mich im Supermarkt an die Schlange anstellen und mich, wenn ich dran bin, ducken und unter der Kasse lang zu laufen. </string>
+    <string name="cs14">etwas kaufen, an der Kasse übertrieben lange in meinem Portemonnaie nach passendem Geld suchen und dann einfach weg gehen.</string>
+    <string name="cs15">eine Eiswaffel kaufen, sie auf meinen Kopf tun, durch die Gegend rennen und schreien: \”Ich bin das letzte lebende Einhorn\!”</string>
+    <string name="cs16">mich im Supermarkt auf das Kassenband an der Kasse setzen.</string>
+    <string name="cs17">ich in einem Klamottengeschäft, eine Unterhose des anderen Geschlechts über meine Hose anziehen und mich im Spiegel bewundern.</string>
+    <string name="cs18">mich für ein Minute, oder bis ich weggeschickt werde in einen Haufen Klamotten legen.</string>
+    <string name="cs19">Ich bei MC Donalds zum Spendenbehälter gehen und lautstark erzählen: \”Okay Leute ganz ruhig, ich weiß ich weiß. Aber ich habe heute meine Spendierhosen an! Ihr müsst mir nicht danken, ich bin eben ein großzügiger Mensch\” und dann einen Cent spenden.</string>
+    <string name="cs20">mich an der Kasse anstellen und dann der Kassiererin eine traurige Geschichte aus meiner Kindheit erzählen.</string>
+
+    <!--    Aufgaben bei einem Freund    -->
+    <string name="fl1">bei einem Freund   leicht</string>
+
+    <string name="fm1">bei einem Freund  mittel</string>
+
+    <string name="fs1">bei einem Freund   schwer</string>
+
+
+</resources>

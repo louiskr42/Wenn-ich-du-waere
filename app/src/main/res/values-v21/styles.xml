@@ -1,0 +1,25 @@
+<resources>>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+    </style>
+
+    <style name="SkipButtonStyle">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="YButtonStyle">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColor">@color/gameGreen</item>
+    </style>
+
+    <style name="NButtonStyle">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+</resources>
